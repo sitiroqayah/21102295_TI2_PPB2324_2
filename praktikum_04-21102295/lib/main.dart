@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
                   ),
                   //Nama
                   const Text(
-                    "Devit Nur Azaqi",
+                    "Siti Roqayah",
                     style: TextStyle(
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                     height: 5,
                   ),
                   const Text(
-                    "20103016",
+                    "21102295",
                     style: TextStyle(
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
@@ -90,14 +90,14 @@ class MyApp extends StatelessWidget {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [Text("Nama "), Text("Devit")],
+                    children: const [Text("Nama "), Text("Siti Roqayah")],
                   ),
                   const SizedBox(
                     height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [Text("Kelas "), Text("SI04-A")],
+                    children: const [Text("Kelas "), Text("IF-TI-02")],
                   ),
                   const SizedBox(
                     height: 15,
@@ -106,7 +106,7 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: const [
                       Text("Program Studi"),
-                      Text("Sistem Informasi"),
+                      Text("Teknik Informatika"),
                     ],
                   ),
                   const SizedBox(
@@ -121,7 +121,7 @@ class MyApp extends StatelessWidget {
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [Text("Angkatan "), Text("2020")],
+                    children: const [Text("Angkatan "), Text("2021")],
                   )
                 ],
               ),
