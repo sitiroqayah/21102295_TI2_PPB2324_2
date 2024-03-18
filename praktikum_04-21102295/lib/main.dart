@@ -77,51 +77,51 @@ class MyApp extends StatelessWidget {
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   color: const Color(0xffFEF4F3)),
-              child: const Column(
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
+                  const Text(
                     "Data Diri",
                     style: TextStyle(
                         color: Colors.pinkAccent, fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Text("Nama "), Text("Devit")],
+                    children: const [Text("Nama "), Text("Devit")],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Text("Kelas "), Text("SI04-A")],
+                    children: const [Text("Kelas "), Text("SI04-A")],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                    children: const [
                       Text("Program Studi"),
                       Text("Sistem Informasi"),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Text("Dosen Wali "), Text("MLU")],
+                    children: const [Text("Dosen Wali "), Text("MLU")],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 15,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [Text("Angkatan "), Text("2020")],
+                    children: const [Text("Angkatan "), Text("2020")],
                   )
                 ],
               ),
