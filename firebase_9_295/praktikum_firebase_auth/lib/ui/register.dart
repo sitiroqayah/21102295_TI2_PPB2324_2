@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatefulWidget {
-  const RegisterScreen({Key? key}) : super(key: key);
+  const RegisterScreen({super.key});
 
   @override
   State<RegisterScreen> createState() => _RegisterScreenState();
@@ -15,39 +15,39 @@ class _RegisterScreenState extends State<RegisterScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 70),
+        margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 70),
         child: ListView(
           children: [
-            Text(
+            const Text(
               "Register",
               style: TextStyle(
                   fontSize: 40,
                   fontWeight: FontWeight.bold,
                   color: Color(0xff3D4DE0)),
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
-            Text(
+            const Text(
               "Silahkan masukan e-mail dan password anda",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
-            Text(
+            const Text(
               "e-mail",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             TextFormField(
               controller: emailEdc,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
               "password",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
@@ -68,38 +68,38 @@ class _RegisterScreenState extends State<RegisterScreen> {
               obscureText:
                   !passInvisible, // Atur obscureText berdasarkan _isPasswordVisible
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
             ElevatedButton(
                 onPressed: () {},
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xff3D4DE0),
+                    backgroundColor: const Color(0xff3D4DE0),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10))),
-                child: Text(
+                child: const Text(
                   "Register",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 24,
                       color: Colors.white),
                 )),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Sudah punya akun ?"),
+                const Text("Sudah punya akun ?"),
                 TextButton(
                     onPressed: () {
                       Navigator.pushNamed(context, '/login');
                     },
-                    child: Text(
+                    child: const Text(
                       "Login",
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: const Color(0xff3D4DE0)),
+                          color: Color(0xff3D4DE0)),
                     ))
               ],
             )

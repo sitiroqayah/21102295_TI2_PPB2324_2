@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -18,39 +18,39 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        margin: EdgeInsets.symmetric(horizontal: 30, vertical: 70),
+        margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 70),
         child: ListView(
           children: [
-            Text(
+            const Text(
               "Login",
               style: TextStyle(
                   fontSize: 40,
                   fontWeight: FontWeight.bold,
                   color: Color(0xff3D4DE0)),
             ),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
-            Text(
+            const Text(
               "Silahkan masukan e-mail dan password anda",
               style: TextStyle(
                 fontSize: 16,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
-            Text(
+            const Text(
               "e-mail",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             TextFormField(
               controller: emailEdc,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
               "password",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
@@ -69,7 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               obscureText: !passInvisible,
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             ),
             ElevatedButton(
@@ -77,28 +77,28 @@ class _LoginScreenState extends State<LoginScreen> {
                   Navigator.pushNamed(context, '/home');
                 },
                 style: ElevatedButton.styleFrom(
-                    backgroundColor: Color(0xff3D4DE0),
+                    backgroundColor: const Color(0xff3D4DE0),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10))),
-                child: Text(
+                child: const Text(
                   "Login",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 24,
                       color: Colors.white),
                 )),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Belum punya akun ?"),
+                const Text("Belum punya akun ?"),
                 TextButton(
                     onPressed: () {
                       Navigator.pushNamed(context, '/register');
                     },
-                    child: Text(
+                    child: const Text(
                       "Daftar",
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
