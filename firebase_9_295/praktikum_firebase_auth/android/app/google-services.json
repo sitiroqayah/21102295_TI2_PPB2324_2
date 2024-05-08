@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "356018762006",
+    "project_id": "fir-auth-295",
+    "storage_bucket": "fir-auth-295.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356018762006:android:e8c0d52cc8df50109ae037",
+        "android_client_info": {
+          "package_name": "com.example.praktikum_firebase_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFTFugRxztcoMoEGy5JLqy1V-Cn1Smrkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
