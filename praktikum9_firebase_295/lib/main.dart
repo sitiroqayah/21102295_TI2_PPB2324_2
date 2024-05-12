@@ -7,14 +7,11 @@ import 'package:praktikum9_firebase_295/utils/routes.dart';
 
 import 'bloc/login/login_cubit.dart';
 import 'bloc/register/register_cubit.dart';
-import 'firebase_options.dart';
 import 'ui/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
